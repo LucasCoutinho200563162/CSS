@@ -1,0 +1,212 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Nabla:wght@400&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+
+
+html, body, header, footer, main {
+    margin: 0;
+    padding: 0;
+}
+
+
+html, body {
+    height: 100%;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    color: #333;
+    text-align: center;
+    
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+}
+
+
+
+header h1 {
+    font-family: 'Comic Sans', cursive;
+    font-size: 28px;
+    color: #ff0000;
+}
+
+header p {
+    font-size: 16px;
+}
+
+main {
+    flex: 1;
+    background: url('videos/lousarmstrong-wonderful-world.mp4');
+    padding: 20px;
+    position:relative;
+}
+
+main p {
+    font-size: 45px;
+    font-family: 'Dancing Script', cursive;
+    font-weight: bolder;
+}
+
+h2 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 24px;
+    color: #ff6600;
+}
+
+video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: -1;
+}
+  
+#lyrics {
+    padding: 50px;
+    display: inline-block;
+    border: 1px solid rgba(0, 0, 0, 0.119); 
+    box-shadow: 5px 5px 20px 0 rgba(0, 0, 0, 0.5);
+    background: linear-gradient(to bottom, #4AC96E, #82C0E6, #FFFFA6, #FFB06B);
+    background-repeat: no-repeat; 
+} 
+
+img {
+    vertical-align: middle; 
+    height: 2em; 
+}
+
+p:last-child img{
+    vertical-align: middle; 
+    height: 3.5em; 
+}
+
+.green {
+	font-weight: bold;
+    color: green;
+	font-size: 1.6em;
+}
+
+.red {
+	font-weight: bold;
+    color: red;
+}
+
+.blue {
+	font-weight: bold;
+    color: blue;
+}
+.blooming{
+    background: linear-gradient(#c08854aa, #a21adc); 
+}
+
+.blooming:nth-child(1){
+    font-size: 1.5em;
+}
+
+.blooming:nth-child(2){
+    font-size: 2em;
+}
+
+.blooming:nth-child(3){
+    font-size: 2.5em;
+}
+
+.blooming:nth-child(4){
+    font-size: 3em;
+}
+
+.blooming:nth-child(5){
+    font-size: 3.5em;
+}
+
+.wonderful{
+    color: rgb(5, 97, 235);
+    font-size: 1.45em;
+}
+
+.shadow:nth-child(1){
+    text-shadow: 0 0 5px rgba(255, 191, 0, 0.8),
+             0 0 10px rgba(255, 191, 0, 0.8),
+             0 0 15px rgba(255, 191, 0, 0.8),
+             0 0 20px rgba(255, 191, 0, 0.8);
+}
+
+.shadow:nth-child(3){
+    color: white;
+    text-shadow: 0 0 5px rgb(0, 0, 0),
+                0 0 10px rgb(0, 0, 0),
+                0 0 15px rgb(0, 0, 0),
+                0 0 20px rgb(0, 0, 0),
+                0 0 25px rgb(0, 0, 0);
+}
+
+
+.rainbow{
+    font-size: 1.2em;
+    color: rgb(255, 255, 255);
+    background: linear-gradient(to right, red, orange, yellow, green, blue, indigo, violet);
+}
+
+.loveu{
+    color: red;
+    text-shadow: 0 5px 10px red;
+}
+
+.loveu:nth-child(1){
+    font-size: 1em;
+}
+
+.loveu:nth-child(2){
+    font-size: 2.2em;
+}
+
+.loveu:nth-child(3){
+    font-size: 4em;
+}
+
+.grow{
+    color: brown;
+}
+
+.grow:nth-child(2){
+    font-size: 1.5em;
+}
+
+.grow:nth-child(3){
+    font-size: 2em;
+}
+
+.grow:nth-child(4){
+    font-size: 2.5em;
+}
+
+.grow:nth-child(5){
+    font-size: 3em;
+}
+
+.finalworld {
+    font-size: larger;
+    text-transform: uppercase;
+}
+main p:last-child {
+    font-family: 'Nabla', sans-serif;
+    font-size: 2em;
+    text-shadow: 0 0 5px rgb(0, 0, 0),
+                0 0 10px rgb(0, 0, 0),
+                0 0 15px rgb(0, 0, 0),
+                0 0 20px rgb(0, 0, 0),
+                0 0 25px rgb(0, 0, 0);
+}
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+}
+
