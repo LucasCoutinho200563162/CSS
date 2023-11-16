@@ -1,0 +1,182 @@
+@import url('https://fonts.googleapis.com/css2?family=Agbalumo&display=swap');
+
+body, h1, p, ul {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Agbalumo', sans-serif;
+}
+
+header {
+    background-color: #ffcc00;
+    padding: 2%;
+    text-align: center;
+}
+
+header h1 {
+    color: #663300;
+}
+
+nav ul {
+    list-style: none;
+    margin-top: 1%;
+    padding: 0;
+}
+
+nav li {
+    display: inline;
+    margin-right: 2%;
+}
+
+nav a {
+    text-decoration: none;
+    color: #663300; 
+    font-weight: bold;
+    font-size: 18px;
+    transition: color 0.3s ease, background-color 0.3s ease, border-radius 0.3s ease;
+    padding: 8px 16px;
+    border-radius: 10px;
+}
+
+nav a:hover {
+    color: #fff; 
+    background-color: #663300; 
+    border-radius: 20px; 
+    position: relative;
+}
+
+nav a:hover::after {
+    content: '';
+    background-image: url('../images/kit_kat_break.png');
+    background-size: cover;
+    position: absolute;
+    transform: translateY(-50%);
+    top: 50%;
+    left: 0;
+    width: 15px; 
+    height: 15px; 
+}
+
+
+main {
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+    position: relative;
+    padding: 2%;
+}
+
+.kollection-first {
+    width: 50%;
+    text-align: center;
+    margin: 0 auto;
+}
+
+
+
+.kit-kat-middle-bar {
+    position: relative;
+    width: 100%;
+    height: 300px;
+    overflow: hidden; 
+}
+
+.kollection-first img:nth-of-type(2) {
+    border-radius: 20px;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.9);
+}
+
+.kollection-first img:nth-of-type(3) {
+    border-radius: 50%;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.9);
+}
+
+
+
+.kollection-first p{
+    font-size: 1.5em;
+    color: white;
+    text-shadow: 0 0 5px rgb(0, 0, 0),
+                0 0 10px rgb(0, 0, 0),
+                0 0 15px rgb(0, 0, 0),
+                0 0 20px rgb(0, 0, 0),
+                0 0 25px rgb(0, 0, 0);
+}
+
+@keyframes beat {
+    0% { transform: scale(0.8); }
+    25% { transform: scale(1); }
+    50% { transform: scale(1.15); }
+    75% { transform: scale(1); }
+    100% { transform: scale(0.8); }
+}
+
+.kollection-first img:nth-of-type(3):hover {
+    animation: beat 0.6s infinite;
+}
+
+video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: -1;
+}
+
+
+footer {
+    background: linear-gradient(135deg, #ffcc00, #ff6600);
+    padding: 2%;
+    text-align: center;
+    bottom: 0;
+    width: 100%;
+}
+
+footer p {
+    color: #663300;
+    font-size: 1.1em;
+}
+
+
+em {
+    color:#ffcc00;
+}
+
+table {
+    width: 80%;
+    margin: 2% auto;
+    border-collapse: collapse;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 2%;
+    text-align: left;
+    color: #663300;
+}
+
+th {
+    background-color: #ffcc00;
+}
+
+.special-mark {
+    padding-left: 5%;
+}
+
+h3 {
+    font-size: 1.5em;
+    color: white;
+    text-shadow: 0 0 5px rgb(0, 0, 0),
+                0 0 10px rgb(0, 0, 0),
+                0 0 15px rgb(0, 0, 0),
+                0 0 20px rgb(0, 0, 0),
+                0 0 25px rgb(0, 0, 0);
+}
