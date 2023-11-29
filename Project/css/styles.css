@@ -50,7 +50,7 @@ nav li {
     margin-right: 20px;
 }
 
-nav a {
+#menu-nav {
     text-decoration: none;
     color: white;
     transition: color 0.3s ease, background-color 0.3s ease, border-radius 0.3s ease;
@@ -58,7 +58,14 @@ nav a {
     font-size:larger; 
 }
 
-nav a:hover {
+/* Fix the logo in the header */
+.logo {
+    max-height: 150px;
+    margin-left: 5%;
+    filter: drop-shadow(3px 5px 8px rgb(0 0 0 / 0.6));
+}
+
+#menu-nav:hover {
     color: #fff; 
     background-color: #2e6407; 
     border-radius: 5px; 
